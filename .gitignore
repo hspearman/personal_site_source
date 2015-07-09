@@ -1,0 +1,5 @@
+index.html
+portfolio.html
+foundation/bower_components/*
+foundation/.sass-cache/*
+*.DS_Store
