@@ -9440,17 +9440,37 @@ th.hide-for-touch {
   }
 }
 /* line 43, ../scss/app.scss */
-.section {
-  padding-top: 50px;
-}
-
-/* line 47, ../scss/app.scss */
-.project-card {
+.position-card {
   list-style-type: none;
   font-size: small;
 }
 
-/* line 53, ../scss/app.scss */
+/* line 49, ../scss/app.scss */
+.footer-list {
+  font-size: small;
+  display: none;
+}
+/* line 52, ../scss/app.scss */
+.footer-list strong {
+  font-size: smaller;
+}
+
+/* line 58, ../scss/app.scss */
+.section {
+  padding-top: 50px;
+}
+
+/* line 63, ../scss/app.scss */
+.project-card {
+  list-style-type: none;
+  font-size: small;
+}
+/* line 66, ../scss/app.scss */
+.project-card strong {
+  font-size: smaller;
+}
+
+/* line 72, ../scss/app.scss */
 .footer {
   width: 100%;
   background-color: #333333;
@@ -9459,14 +9479,14 @@ th.hide-for-touch {
   color: #FFFFFF;
 }
 
-/* line 69, ../scss/app.scss */
+/* line 88, ../scss/app.scss */
 .hero {
   background: url("http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-23827.jpg") no-repeat center center;
   background-size: cover;
   height: 50vh;
   overflow: hidden;
 }
-/* line 74, ../scss/app.scss */
+/* line 93, ../scss/app.scss */
 .hero h1, .hero h2 {
   color: #fff;
   text-align: center;

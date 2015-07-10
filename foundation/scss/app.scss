@@ -39,14 +39,33 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
-// First section
+// Position card
+.position-card {
+    list-style-type: none;
+    font-size: small;
+}
+
+// Footer list
+.footer-list {
+  font-size: small;
+  display: none;
+  strong {
+    font-size: smaller
+  }
+}
+
+// Section
 .section {
 	padding-top: 50px;
 }
 
+// Project card
 .project-card {
     list-style-type: none;
-    font-size: small
+    font-size: small;
+    strong {
+      font-size: smaller
+    }
 }
 
 // Footer
