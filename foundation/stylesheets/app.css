@@ -9440,12 +9440,39 @@ th.hide-for-touch {
   }
 }
 /* line 43, ../scss/app.scss */
+.section {
+  padding-top: 50px;
+}
+
+/* line 47, ../scss/app.scss */
+.project-card {
+  list-style-type: none;
+  font-size: small;
+}
+
+/* line 53, ../scss/app.scss */
 .footer {
   width: 100%;
-  position: fixed;
-  bottom: 0;
   background-color: #333333;
   padding: 1rem 4rem;
   text-align: center;
   color: #FFFFFF;
+}
+
+/* line 69, ../scss/app.scss */
+.hero {
+  background: url("http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-23827.jpg") no-repeat center center;
+  background-size: cover;
+  height: 50vh;
+  overflow: hidden;
+}
+/* line 74, ../scss/app.scss */
+.hero h1, .hero h2 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }

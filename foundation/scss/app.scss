@@ -39,13 +39,41 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+// First section
+.section {
+	padding-top: 50px;
+}
+
+.project-card {
+    list-style-type: none;
+    font-size: small
+}
+
 // Footer
 .footer {
 	width: 100%;
-	position: fixed;
-	bottom: 0;
   	background-color: $oil;
  	padding: 1rem 4rem;
   	text-align: center;
   	color: $white;
 }	
+
+// Hero
+@mixin vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.hero {
+  	background: url('http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-23827.jpg') no-repeat center center;
+  	background-size: cover;
+	height: 50vh;
+  	overflow: hidden;
+	h1, h2 {
+    	color: #fff;
+    	text-align: center;
+    	@include vertical-align;
+  	}
+}
