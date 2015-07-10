@@ -39,10 +39,27 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+// Skill panel
+.skill-panel {
+}
+
+// Skill list
+.skill-list {
+  font-size: large;
+  li {
+    margin: 5px;
+  }
+}
+
 // Position card
 .position-card {
     list-style-type: none;
     font-size: small;
+}
+
+// Position details
+.position-details {
+  font-size: small
 }
 
 // Footer list
