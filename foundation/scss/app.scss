@@ -75,10 +75,13 @@
   }
   li {
     i {
-      padding-left: 5px;
+      padding-right: 5px;
       display: inline;
     }
     strong {
+      display: inline;
+    }
+    a {
       display: inline;
     }
   }
@@ -97,7 +100,7 @@
       font-size: smaller
     }
     i {
-      padding-right: 10px;
+      padding-right: 5px;
       padding-bottom: 10px;
     }
 }
