@@ -39,6 +39,11 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
+// Profile picture
+.profile-picture {
+  padding: 15px
+}
+
 // Skill panel
 .skill-panel {
 }
@@ -65,9 +70,17 @@
 // Footer list
 .footer-list {
   font-size: small;
-  display: none;
   strong {
     font-size: smaller
+  }
+  li {
+    i {
+      padding-left: 5px;
+      display: inline;
+    }
+    strong {
+      display: inline;
+    }
   }
 }
 
@@ -82,6 +95,10 @@
     font-size: small;
     strong {
       font-size: smaller
+    }
+    i {
+      padding-right: 10px;
+      padding-bottom: 10px;
     }
 }
 
