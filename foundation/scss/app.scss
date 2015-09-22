@@ -69,21 +69,9 @@
 
 // Footer list
 .footer-list {
-  font-size: small;
-  strong {
-    font-size: smaller
-  }
   li {
-    i {
-      padding-right: 5px;
-      display: inline;
-    }
-    strong {
-      display: inline;
-    }
-    a {
-      display: inline;
-    }
+    display: inline-block;
+    float: none;
   }
 }
 
@@ -94,6 +82,7 @@
 
 // Project card
 .project-card {
+    margin-bottom: 0px;
     list-style-type: none;
     font-size: small;
     strong {

@@ -9464,49 +9464,34 @@ th.hide-for-touch {
   font-size: small;
 }
 
-/* line 71, ../scss/app.scss */
-.footer-list {
-  font-size: small;
-}
-/* line 73, ../scss/app.scss */
-.footer-list strong {
-  font-size: smaller;
-}
-/* line 77, ../scss/app.scss */
-.footer-list li i {
-  padding-right: 5px;
-  display: inline;
-}
-/* line 81, ../scss/app.scss */
-.footer-list li strong {
-  display: inline;
-}
-/* line 84, ../scss/app.scss */
-.footer-list li a {
-  display: inline;
+/* line 72, ../scss/app.scss */
+.footer-list li {
+  display: inline-block;
+  float: none;
 }
 
-/* line 91, ../scss/app.scss */
+/* line 79, ../scss/app.scss */
 .section {
   padding-top: 50px;
 }
 
-/* line 96, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
 .project-card {
+  margin-bottom: 0px;
   list-style-type: none;
   font-size: small;
 }
-/* line 99, ../scss/app.scss */
+/* line 88, ../scss/app.scss */
 .project-card strong {
   font-size: smaller;
 }
-/* line 102, ../scss/app.scss */
+/* line 91, ../scss/app.scss */
 .project-card i {
   padding-right: 5px;
   padding-bottom: 10px;
 }
 
-/* line 109, ../scss/app.scss */
+/* line 98, ../scss/app.scss */
 .footer {
   width: 100%;
   background-color: #333333;
@@ -9515,14 +9500,14 @@ th.hide-for-touch {
   color: #FFFFFF;
 }
 
-/* line 125, ../scss/app.scss */
+/* line 114, ../scss/app.scss */
 .hero {
   background: url("http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-23827.jpg") no-repeat center center;
   background-size: cover;
   height: 50vh;
   overflow: hidden;
 }
-/* line 130, ../scss/app.scss */
+/* line 119, ../scss/app.scss */
 .hero h1, .hero h2 {
   color: #fff;
   text-align: center;
